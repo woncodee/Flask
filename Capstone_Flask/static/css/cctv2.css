@@ -1,0 +1,119 @@
+:root{
+    scroll-behavior: auto;
+}
+
+.black-bg {
+    width:100%;
+    height:100%;
+    position:fixed;
+    background: rgba(0,0,0,0.5);
+    z-index:5;
+    padding:150px;
+    display:none;
+    transition: all 1s;
+}
+
+.white-bg {
+    background: #5454;
+    border-radius: 5px;
+    padding:30px;
+}
+
+.show-modal {
+    display:block;
+}
+
+.dark {
+    background: black;
+}
+
+
+.navbar {
+    display:flex;
+    background-color:black;
+    height:80px;
+    align-items: center;
+    padding:auto;
+}
+
+.navbar-brand {
+    font-size: 50px;
+
+}
+
+
+
+
+
+.main-container {
+    margin-top:50px;
+    float:left;
+    heght:100%;
+    padding:100px;
+    text-align:left;
+    background-color:white;
+}
+
+
+
+.back-bg {
+    height:
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(webbg.PNG);
+    opacity: 0.7
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    padding: 1px;
+    text-align: center;
+
+}
+
+.nav-name {
+    margin-left:10px;
+    font-size:20px;
+    color:white;
+}
+
+.login {
+
+}
+
+.nav-login {
+    padding:10px;
+}
+
+.main-title {
+    color:black;
+    font-size:30px;
+    margin-top:20px;
+    margin-left:300px;
+    text-align: left;
+}
+
+
+
+.semi-background {
+
+}
+
+.left-box {
+    float:left;
+    margin-top:30px;
+    margin-left: 300px;
+}
+
+.title {
+    font-size:30px;
+}
+
+.right-box {
+    float:right;
+    margin-top:30px;
+    margin-right:300px;
+}
+
+
